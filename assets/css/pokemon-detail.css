@@ -3,6 +3,20 @@ body{
     flex-direction: column;
 }
 
+#pokemonDetail .types li:first-child {
+    filter: brightness(1.1); /* Pequeno brilho no primeiro tipo */
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px 20px; /* Padding extra no segundo tipo */
+}
+
+#pokemonDetail .types li:nth-child(2) {
+    padding: 8px 20px; /* Padding extra no segundo tipo */
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
 #btnBack{
     padding: 5px;
     border-radius: 20px;
