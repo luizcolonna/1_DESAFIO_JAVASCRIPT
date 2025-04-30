@@ -45,3 +45,13 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
+
+pokemonList.addEventListener('click', (event) => {
+    const li = event.target.closest('li.pokemon')
+    if (!li) return
+
+    const number = li.querySelector('.number')?.textContent.replace('#', '')
+    if (number) {
+        window.location.href = `pokemon-detail.html?id=${number}`
+    }
+})

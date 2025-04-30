@@ -6,6 +6,32 @@
     list-style: none;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-pokedex{
+    height: 160px;
+}
+
+ol li:hover{
+    cursor: pointer;
+}
+
+ol li:active{
+    filter: brightness(1.2);
+}
+
+#loadMoreButton:hover{
+    cursor: pointer;
+}
+
+#loadMoreButton:active{
+    filter: brightness(1.2);
+}
+
 .normal {
     background-color: #a6a877;
 }
