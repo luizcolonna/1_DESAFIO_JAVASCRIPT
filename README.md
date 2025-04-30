@@ -31,10 +31,10 @@ Exibe uma lista de Pokémons com seu nome, número e tipo, carregados dinamicame
 Ao clicar em um Pokémon, o usuário é redirecionado para uma página de detalhes que mostra: Nome, número e foto do Pokémon.
 
 
-Status do Pokémon (HP, Ataque, Defesa, etc.).
+-> Status do Pokémon (HP, Ataque, Defesa, etc.).
 
 
-Um fundo colorido de acordo com o tipo primário do Pokémon.
+-> Um fundo colorido de acordo com o tipo primário do Pokémon.
 
 
 -> Paginação:
